@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.main{
+    padding-block: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h-center a{
+    padding-right: 15px;
+    text-decoration: none;
+    color: #000;
+}
+.h-right a{
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #000;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    padding-inline: 20px;
+    border-radius: 10px;
+
+}
+.h-right a:hover{
+    color: #fff;
+    background-color: #000;
+}
+.log-in{
+    margin-right: 10px;
+}
+.banner{
+    background-image: url(../image/banner-bg.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+    
+}
+.banner p{
+    color: #fff;
+    text-align: center;
+
+    
+}
+.category1{
+    width: 790px !important;
+    background-color: #fff;
+    box-shadow: 0px 4px 14px 0px #00000014;
+    border-radius: 10px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+}
+.category1 button{
+    border: none;
+}
+.search_bar{
+    height: 80px;
+    width: 816px;
+    background-color: white;
+    border-radius: 8px;
+    position: absolute;
+    left: 312px;
+    top: 330px;
+    box-shadow: 2px 1px 15px rgb(73, 73, 73);
+    display: flex;
+    align-items: center;
+}
+.search_bar>span{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin-left: 24px;
+}
+.search_bar>input{
+    margin-left: 80px;
+    height: 56px;
+    width: 80%;
+    border: none;
+    border-left: 1px solid #d8d8d8;
+    outline: none;
+}
+.search_bar>input::placeholder{
+    font-family: "Poppins", sans-serif;
+    /* margin-left: 20px; */
+    padding-left: 20px;
+}
+.search_bar>i{
+    position: absolute;
+    left: 750px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+}
+.search_bar>.down_arrow{
+    position: relative;
+    left: 55px;
+}
+#sec2{
+    position: relative;
+}
+.divine{
+    position: absolute;
+    top: 80px;
+    left: 150px;
+}
+.divine p{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 9.5px 10px;
+    font-size: 14px;
+    border-radius: 100px;
+    /* gap: 10px; */
+    border: 1px solid #dedede;
+}
+.second{
+    position: relative;
+    width: 100%;
+}
+.secon p{
+    text-align: center;
+    position: relative;
+    top: 194px;
+}
+.second p:nth-of-type(1){
+    font-size: 30px;
+    font-weight: 600;
+}
+.imagine{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    position: relative;
+    
+}
+.imagine img {
+
+    height: 200px;
+    /* width: 400px; */
+    margin-top: 200px;
+
+    
+}
+
+.imagine p {
+ font-size: 16px;
+
+}
+.imagine .my {
+    font-size: 13px;
+    position: absolute;
+    left: 240px;  
+     
+}
+.imagine .my1 {
+    font-size:13px;
+    
+}
+
+.imagine .my3 {
+    position: absolute;
+    font-size:13px ;
+    right: 10px;
+
+}
+.mybutton {
+    position: absolute;
+     left: 600px;
+}
+ .part
+ {
+    position: absolute;
+    font-size: 13px;
+    left: 600px;
+}
+.force {
+    position: absolute;
+    font-size: 13px;
+    left: 400px;
+
+}
+.idea {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    position: relative;
+    
+}
+.idea img {
+    height: 200px;
+    width: 320px;
+    margin-top: 100px;
+}
+.idea p {
+    position: absolute;
+    font-size: 13px;
+
+}
+i.fa-star {
+    color: yellow;
+}
+i.fa-cart-shopping {
+font-size: 20px;
+
+}
+.rule2{
+    position: relative;
+}
+.rule2 .tanuj {
+    height: 300px;
+    width: 2px;
+    background-color: floralwhite;
+    position: absolute;
+    left: 650px;
+    /* top: 100px; */
+    bottom: -500px;
+}
+.rule2 .tanuj2 {
+    height:2px ;
+    width: 300px;
+    background-color:floralwhite;
+    position: absolute;
+    left: 500px;
+    top: 390px;
+}
+.candy {
+    position: relative;
+
+}
+.candy .cone {
+    position: absolute;
+    margin: left;
+}
+        
